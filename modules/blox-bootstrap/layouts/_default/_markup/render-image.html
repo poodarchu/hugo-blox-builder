@@ -39,8 +39,8 @@
            {{- with $img_class }} class="{{.}}"{{end}} />
         {{- else }}
           {{- $img_lg := $img.Fit "1200x1200 webp" -}}
-          {{- $img_md := $img_lg.Fit "760x760 webp" -}}{{/* Match `.docs-article-container` max-width */}}
-          {{- $img_sm := $img_md.Fit "400x400 webp" -}}
+          {{- $img_md := $img_lg.Fit "960x960 webp" -}}{{/* Match `.docs-article-container` max-width */}}
+          {{- $img_sm := $img_md.Fit "640x640 webp" -}}
           {{- $width := $width | default $img_md.Width -}}
           {{- $height := $height | default $img_md.Height -}}
           <img alt="{{ $alt }}" srcset="
