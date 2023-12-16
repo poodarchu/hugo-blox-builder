@@ -2,16 +2,10 @@
  *  Page content
  **************************************************/
 
-// .article-container {
-//   max-width: 1080px;
-//   padding: 0 20px;
-//   margin: 0 auto;
-// }
-
 .article-container {
-  max-width: 1080px;
-  padding: 0 20px 0 20px;
-  margin: 0 auto 0 auto;
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .page-subtitle {
@@ -164,7 +158,7 @@
 
 /* For article page only, not lists. */
 article .article-metadata {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .dark .article-metadata {
